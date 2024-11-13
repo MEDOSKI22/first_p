@@ -1,0 +1,151 @@
+*{
+              padding: 0;
+              margin: 0;
+              font-family: monospace;
+              scroll-behavior: smooth;
+}
+nav{
+              background-color: transparent;
+              width: 98%;
+              padding: 10px;
+}
+.nav{
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              max-width: 1250px; 
+              padding: 0px 20px;
+              margin: auto;             
+}
+.logo{
+             font-size: 30px;
+             font-weight: 600;
+             color: #fff;
+             text-decoration: none;
+}
+
+a{
+              text-decoration: none;
+              color: #fff;
+}
+
+a:hover{
+     color: #97323f;
+}
+
+.list ul{
+              list-style-type: none;
+              display: inline-flex;
+              
+}
+.list>ul>li{
+              margin: 0 7px;
+              
+}
+.list>ul>li>a{
+              margin: 0 7px;
+              font-size: 20px;
+              font-weight: 500px;
+              padding: 8px 15px;
+              border-radius: 5px;
+              transition: all 0.3s ease;
+}
+.list>ul>li>a:hover{
+              background-color: white;
+              color: black;
+}
+
+.profile-pic{
+              height: 200px;
+              width: 200px;
+              border-radius: 50%;
+              margin: 10px 0;
+}
+.middle-text>h1{
+              font-weight: 700;
+              font-family: 'Courier New', Courier, monospace;
+              font-size: 30px;
+
+}
+.middle-text{
+              text-align: center;
+              padding-bottom: 5px;
+}
+.Main{
+     background-image: url(black-s.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     color: white;
+     background-attachment: fixed;
+}
+
+.middle-text p{
+              display: flex;
+              justify-content: center;
+              font-family:monospace;
+              font-size: 15px;
+}
+.Middle-pic{
+              text-align: center;
+}
+.social-media-grid{
+     display: grid;
+     grid-template-rows: 1fr 1fr 1fr;
+     justify-content: end;
+     margin-right: 5px;
+     margin-top: 4%;
+}
+
+span{
+              color: gold;
+              font-family: monospace;
+              font-weight: 700;
+}
+
+.main-middle{
+             padding-top: 5%;
+}
+
+.black{
+     color: white;
+     background-color: black;
+}
+.intro{
+     display: flex;
+     justify-content: flex-start;
+     padding: 10%;
+     max-width: 1250px;
+}
+
+.intro-text>h1{
+     font-size: 50px;
+     font-weight: 800;
+     font-family: "Monaco";
+     padding-top: 160px;
+
+}
+.intro-text p{
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 15px;
+     margin: 10px 0;
+}
+.intro img{
+     object-fit: contain;
+     height: 100%;
+}
+
+.me{
+     position: absolute;
+     left: 50%;
+     z-index: 100;
+     padding: 10px;
+}
+.bg{
+     position: absolute;
+     left: 55%;
+     object-fit: contain;
+}
+.ponk{
+     padding-top: 360px;
+     
+}
